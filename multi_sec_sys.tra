@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'multi_sec_sys.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "multi_sec_sys.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\multi_sec_sys.map" -o "multi_sec_sys.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'multi_sec_sys.axf'
+### ADS-LD Command File: 'multi_sec_sys.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'multi_sec_sys.lnp', Handle=0x000005BC
+### Writing '.lnp' file
+### ADS-LD Command file 'multi_sec_sys.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
